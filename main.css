@@ -1,0 +1,92 @@
+
+/* Tiêu đề */
+header {
+    background-color:rgb(208, 144, 221);
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px 0;
+    font-weight: 400px;
+    text-align:center;
+    height: 50px;
+    border: 5px solid skyblue;
+}
+/* title__main */
+h1 {
+    margin: 1;
+    height:  50px;
+    background-image: url("./picture__main/header.jpg");
+    color:rgb(187, 52, 95);
+    font-size:50px;
+}
+body{
+    background-image: url(./picture__main/Physics-Background.jpg);
+    background-position-y: bottom;
+}
+.navigation-bar{
+    max-width: 1800px;
+    max-height: 60px;
+    border-color: aqua;
+    background-color: rgb(208, 144, 221);
+    margin-top: 3px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    background-image: url(./picture__main/logo.jpg);
+    background-repeat: no-repeat;
+    border: 1px solid;
+    border-color: aqua;
+    border-radius: 50%;
+    padding: 5px;
+}
+.multi-level{
+    max-width: 960px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#main-menu{
+    display: flex;
+    padding: 5px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu li a{
+    display: block;
+    color: rgb(205, 23, 81);
+    padding: 18px 18px;
+    text-decoration: none;
+}
+#main-menu ul.sup-menu{
+    display: none;
+}
+#main-menu li:hover ul.sup-menu{
+    display: block;
+}
+.sup-menu{
+    position: absolute;
+    background-color: rgb(208, 144, 221);
+    padding: 15px 0px;
+    list-style: none;
+    width: 170px;
+
+}
+.sup-menu li a:hover{
+    border: 1px rgb(31, 112, 179) solid;
+}
+footer{
+    background-color: rgb(47, 44, 45);
+    height: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top:470px;
+}
+footer p{
+    display:block;
+    padding:40px;
+}
