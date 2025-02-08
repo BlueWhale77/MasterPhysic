@@ -1,0 +1,95 @@
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+body{
+    font-family: "DM Serif Text", serif;
+    background-image: url(./bg.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: pink;
+}
+#title {
+    text-align: center;
+    color:rgba(220, 81, 241, 0.827);
+    text-shadow: 1px 5px 5px rgba(203, 11, 216, 0.53);
+    background-image: linear-gradient(pink,rgb(64, 64, 131)) ;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.block__time{
+    margin: auto auto;
+    width: 40rem;
+    height: 20rem;
+    background-image: linear-gradient(rgb(241, 90, 226),rgb(97, 152, 241),white);
+    border-radius: 25px ;
+    display: flex;
+    border: 2px pink dashed;
+}
+.time {
+    width: 25%;
+    height: 40%;
+    background-image: linear-gradient(rgb(241, 90, 226),rgb(97, 152, 241),white);
+    margin: auto auto;
+    border-radius: 5px;
+    border: 2px dashed pink;
+}
+div p.title_time{
+    text-align: center;
+    margin-top: -45px;
+    color: rgb(72, 19, 218);
+    text-shadow: 1px 1px 1px pink;
+}
+div p.cout {
+   font-size: 100px;
+   text-align: center;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+/* các button vủa đồng hồ */
+
+.button {
+    color: pink;
+    font-size: 30px;
+    display:block;
+    width: 80px;
+    height: 50px;
+    margin: 15px auto;
+    text-align: center;
+    background-image: linear-gradient(rgb(241, 90, 226),rgb(97, 152, 241));
+    border-radius: 50px;
+    border: 3px solid rgb(241, 90, 226);
+}
+
+.add {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 80px;
+}
+div#start span{
+    display:inline-block;
+    font-size: 45px;
+    margin:   4.5%  0px;
+    color:rgba(226, 146, 224, 0.69);
+}
+#start:hover{
+    background-image: linear-gradient(rgb(228, 39, 209),rgb(42, 118, 240));
+    border: 3px groove rgb(255, 10, 173) ;
+}
+#reset:hover{
+    background-image: linear-gradient(rgb(228, 39, 209),rgb(42, 118, 240));
+    border: 3px groove rgb(255, 10, 173) ;
+}
+#stop:hover{
+    background-image: linear-gradient(rgb(228, 39, 209),rgb(42, 118, 240));
+    border: 3px groove rgb(255, 10, 173) ;
+}
